@@ -306,7 +306,7 @@ def get_lines(size, streak):
 
 
 def read_lines(board, lines, limit, mark, idx, to_win=True):
-    """Function helps the Game an AI read current position on board"""
+    """Function helps the Game an AI read idx position on board"""
     counter = 0
     move = None
     for coord in lines[idx]:
